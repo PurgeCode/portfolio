@@ -8,8 +8,11 @@
    --light-two: #f9fafb;
    --light-three: #f6f7fb;
 }
+/* 
+Categorized by Section
+*/
 
-/* Genral Styles */
+/* General Styles */
 
 *,
 *::before,
@@ -50,11 +53,12 @@ img {
    margin: 0 auto;
 }
 
+/* This is to avoid scrolling responsive */
 .stop-scrolling {
    height: 100%;
    overflow: hidden;
 }
-
+/* Styling for Header Section Start's here */
 .grid-2 {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
@@ -87,6 +91,8 @@ img {
    position: relative;
    z-index: 2;
 }
+
+/* This is for the image backgrounds in Header Section*/
 
 .overlay {
    position: absolute;
@@ -135,6 +141,7 @@ img {
    opacity: 0.3;
    position: absolute;
 }
+/* This is the end styling of the general header */
 
 .section {
    padding: 7rem 0;
@@ -216,7 +223,7 @@ img {
 
 /* End Genral Styles */
 
-/* Header */
+/* Header Section */
 
 header {
    width: 100%;
@@ -417,7 +424,7 @@ header .circle {
 
 /* End header */
 
-/* Services */
+/* Services Section */
 
 .cards {
    display: flex;
@@ -507,7 +514,7 @@ header .circle {
 
 /* End Services */
 
-/* Portfolio */
+/* Portfolio Section */
 
 .portfolio {
    position: relative;
@@ -699,7 +706,7 @@ header .circle {
 
 /* End Portfolio */
 
-/* About */
+/* About Section*/
 
 .about {
    overflow: hidden;
@@ -771,7 +778,7 @@ header .circle {
 
 /* End About */
 
-/* Records */
+/* Records Section*/
 
 .records {
    position: relative;
@@ -860,7 +867,7 @@ header .circle {
 
 /* End Records */
 
-/* Blog */
+/* Blog Section*/
 
 .blog-wrapper {
    display: flex;
@@ -965,7 +972,7 @@ header .circle {
 
 /* End Blog */
 
-/* Testimonials */
+/* Testimonials Section*/
 
 .testimonials {
    background-color: var(--light-two);
@@ -1052,7 +1059,7 @@ header .circle {
 
 /* End Testimonials */
 
-/* Contact */
+/* Contact Section*/
 
 .contact {
    position: relative;
@@ -1189,7 +1196,7 @@ header .circle {
 
 /* End Contact */
 
-/* Hire me */
+/* Hire me  Section*/
 
 .hireme {
    padding: 12rem 0;
@@ -1210,7 +1217,7 @@ header .circle {
 
 /* End Hire me */
 
-/* Footer */
+/* Footer Section*/
 
 .footer {
    background-color: #222;
@@ -1393,7 +1400,7 @@ header .circle {
 
 /* End Footer */
 
-/* Responsive */
+/* Responsive using Media Query*/
 
 @media (max-width: 1280px) {
    .text {
